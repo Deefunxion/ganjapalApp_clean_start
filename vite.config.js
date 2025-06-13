@@ -5,7 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/GanjapalApp_clean_start/",
+  base: "/GanjapalApp/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
